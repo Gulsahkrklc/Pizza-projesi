@@ -1,97 +1,214 @@
-:root {
-  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
-
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
-
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  -webkit-text-size-adjust: 100%;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
-}
-
-body {
-  margin: 0;
+header {
+  background-image:url(.\public\assets\iteration-1\home-banner.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 800px;
   display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+ padding-bottom: 0%;
 }
-
-h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+header h1 {
+  font-size: 60px;
+  color: white;
+  font-family:"Londrina Solid";
+  margin-top: 15px;
 }
-
-#app {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+header h2 {
+  font-family: Satisfy;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  color: #FDC913;
+  padding-top: 0%;
+  margin-top: 0%;
+}
+header h3 {
+  font-size: 70px;
+  width: 600px;
+  font-family:"Roboto Condensed";
   text-align: center;
+  font-weight: lighter;
+  color: white;
+  padding-top: 0%;
+  margin-top: 0%;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
 }
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vanilla:hover {
-  filter: drop-shadow(0 0 2em #f7df1eaa);
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
-
-button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
-  cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
+header button {
+  background-color:#FDC913;
+  padding: 20px 40px;
+  border:#FDC913;
+  border-radius: 22px;
+  font-size: 15px;
+  font-family: Barlow;
+  font-weight: bold;
+  text-align: center;
   }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+  
+.menu-item {
+  display: flex;
+  gap: 1rem;
 }
+.container1 {
+  display: flex;
+  gap : 2rem;
+  justify-content: center;
+  padding-top: 0%;
+  padding-bottom: 70px;
+  position: relative;
+}
+.container2 {
+  display: flex;
+  height: 100vh;
+  margin-bottom: 80px;
+}
+
+.kart1 {
+  background-image:url(.\public\assets\iteration-2\cta\kart-1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+  border-radius: 2%;
+  margin-right: 1%;
+  
+}
+  .kart1 h2 {
+    font-family: Quattrocento;
+    font-size: 80px;
+    text-align: left;
+    color: white;
+    padding: 10px 40px;
+    width: 20px;
+    margin-top: 0%;
+    margin-bottom: 20px;
+    padding-bottom: 10%;
+    padding-top: 5%;
+    
+}
+  .kart1 p {
+    color: white;
+    font-family: Barlow;
+    font-size: 23px;
+    padding:0px 40px;
+    margin-top: 0%;
+    margin-bottom: 10%;
+}
+  .kart1 button {
+    color:#CE2829;
+    font-family: Barlow;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-left: 35px;
+    text-align: center;
+    padding: 2% 7%;
+  }
+  .ikikart {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+  }
+  .hackathlon {
+    background-image:url(.\public\assets\iteration-2\cta\kart-2.png);
+    background-repeat: no-repeat;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2%;
+    margin-bottom: 1%;
+    color: white;
+    
+    }
+    .hackathlon h3 {
+    font-family: Barlow;
+    font-size: 35px;
+    color: white;
+    margin-left: 5%;
+    line-height: 1.5;
+    margin-bottom: 10%;
+    
+    }
+    .hackathlon button {
+      color:#CE2829;
+    font-family: Barlow;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-left: 35px;
+    text-align: center;
+    padding: 2% 7%;
+
+    }
+  .kurye {
+    background-image:url(.\public\assets\iteration-2\cta\kart-3.png);
+    background-repeat: no-repeat;
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+    border-radius: 2%;
+  }
+  .kurye h4 {
+    font-family: Barlow;
+    font-size: 35px;
+    margin-top: 5%;
+    padding-left: 5%;
+    padding-top: 7%;
+    margin-bottom: 10%;
+  }
+  .kurye button {
+    color:#CE2829;
+    font-family: Barlow;
+    background-color: white;
+    font-size: 15px;
+    border-radius: 30px;
+    font-weight: bold;
+    margin-left: 35px;
+    text-align: center;
+    padding: 2% 7%;
+    }
+    .sentences h2 {
+      font-family: Satisfy;
+      color:#CE2829;
+      text-align: center;
+      font-size: 250%;
+      margin-bottom: 0%;
+    }
+    .sentences h3 {
+      font-family: Barlow;
+      color: #292929;
+      text-align: center;
+      font-size: 300%;
+      margin-top: 1%;
+    }
+    .menu-item2 {
+      display: flex;
+      gap: 1rem;
+    }
+    .menu-item3 {
+      background-color: #292929;
+      display: flex;
+      gap: 1rem;
+    }
+    .container3 {
+      display: flex;
+      gap : 2rem;
+      justify-content: center;
+      padding-top: 0%;
+      padding-bottom: 70px;
+      position: relative;
+    }
+    
+    
+  
+  
+  
+
+
+
+
+
+  
+

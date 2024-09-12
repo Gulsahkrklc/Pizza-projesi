@@ -1,12 +1,14 @@
 header {
-  background-image:url(.\public\assets\iteration-1\home-banner.png);
+  background-image:url(public\assets\iteration-1\home-banner.png);
   background-size: contain;
   background-repeat: no-repeat;
-  height: 800px;
+  height: 100vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
- padding-bottom: 0%;
+  padding-bottom: 0%;
+
 }
 header h1 {
   font-size: 60px;
@@ -191,6 +193,8 @@ header button {
       background-color: #292929;
       display: flex;
       gap: 1rem;
+      border-radius: 10%;
+      
     }
     .container3 {
       display: flex;
@@ -199,7 +203,195 @@ header button {
       padding-top: 0%;
       padding-bottom: 70px;
       position: relative;
+      padding-bottom: 0%;
     }
+    .menü-fiyat {
+      display: flex;
+    justify-content: space-around; 
+    align-items: center; 
+    height: 100vh; 
+    margin-top: 0%;
+    }
+    .terminal-pizza h1 {
+      font-family: Barlow;
+      font-size: 20px;
+      font-weight: 500;
+      padding-left: 10px;
+      margin-bottom: 0%;
+    }
+    .alt-yazilar {
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 0%;
+      display: flex;
+      text-align: center;
+    }
+    .degerlendirme {
+      padding-right: 140px;
+    }
+    .sayi {
+      padding-right: 10px;
+    }
+    .fiyat {
+      padding-left: 50px;
+      font-weight: bold;
+    }
+    .position-pizza h4{
+      font-family: Barlow;
+      font-size: 20px;
+      font-weight: 500;
+      padding-left: 10px;
+      margin-bottom: 0%;
+    }
+    .use-burger h5{
+      font-family: Barlow;
+      font-size: 20px;
+      font-weight: 500;
+      padding-left: 10px;
+      margin-bottom: 0%;
+    }
+    .icon-iletisim{
+      padding-left: 200px;
+    }
+    .icon-iletisim h1 {
+      font-family:"Londrina Solid";
+      font-size: 50px;
+      padding-top: 0%;
+    }
+    .adres {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+
+    }
+    .adres h2{
+      font-family: Barlow;
+      font-size: 15px;
+      padding-left: 10px;
+      font-weight: 410;
+    }
+    .adres i {
+      font-size: 24px; 
+    margin-right: 10px;
+    }
+    .mail {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+    }
+    .mail p {
+      font-family: Barlow;
+      font-size: 15px;
+      padding-left: 10px;
+      font-weight: 410;
+    }
+    .mail i {
+      font-size: 24px; 
+    margin-right: 10px;
+    }
+    .telnum {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+    }
+    .telnum p{
+      font-family: Barlow;
+      font-size: 15px;
+      padding-left: 10px;
+      font-weight: 410;
+      
+    }
+    .telnum i {
+      font-size: 24px; 
+    margin-right: 10px;
+    }
+    .hot-menü h2{
+      font-family: Barlow;
+      padding-left: 40px;
+      font-weight: 600;
+      padding-top: 100px;
+      padding-bottom: 10px;
+      
+    }
+    .hot-menü ul {
+      list-style-type:none;
+      font-family: Barlow;
+      display: flex;
+      flex-direction: column;
+      row-gap: 15px;
+
+    }
+    .instagram{
+      padding-right: 100px;
+      padding-bottom: 100px;
+    }
+    .instagram h3{
+      font-family: Barlow;
+      padding-top: 100px;
+    }
+    .gorsel {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px; 
+   }
+    
+    .son{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background: #1A1A1A;
+      color: white;
+      padding-right: 50px;
+      }
+      /* Mobil cihazlar için özel stiller */
+      @media screen and (max-width: 540px) {
+        header {
+          background-size: cover; 
+          height: 500px; 
+          padding-bottom: 20px;
+          max-width: 420px;
+          }
+          
+          header h1 {
+            font-size: 30px; 
+            padding-bottom: 15px;
+        }
+    
+        header h2 {
+            font-size: 24px; 
+            padding-bottom: 15px;
+        }
+    
+        header h3 {
+            font-size: 46px; 
+            width: 100%; 
+            padding-bottom: 20px;
+        }
+    
+        header button {
+            padding: 10px 20px; 
+            font-size: 12px; 
+        }
+        .container1, .container3 {
+          flex-direction: row; 
+          align-items: center; 
+          flex-wrap: wrap;
+          width: 120%;
+          padding-top: 30px;
+        }
+        
+    }
+    
+        
+          
+        
+      
+
+    
+    
+
+    
+    
     
     
   

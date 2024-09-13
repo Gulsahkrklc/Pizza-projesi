@@ -344,6 +344,62 @@ header button {
       color: white;
       padding-right: 50px;
       }
+      @media screen and (max-width: 540px) {
+        header {
+          background-size: cover; 
+          height: 500px; 
+          padding-bottom: 20px;
+          max-width: 420px;
+          }
+          
+          header h1 {
+            font-size: 30px; 
+            padding-bottom: 15px;
+        }
+    
+        header h2 {
+            font-size: 24px; 
+            padding-bottom: 15px;
+        }
+    
+        header h3 {
+            font-size: 46px; 
+            width: 100%; 
+            padding-bottom: 20px;
+        }
+    
+        header button {
+            padding: 10px 20px; 
+            font-size: 12px; 
+        }
+        .container1, .container3 {
+          flex-direction: row; 
+          align-items: center; 
+          flex-wrap: wrap;
+          width: 120%;
+          padding-top: 30px;
+        }
+        
+  
+      .sentences h2 {
+          font-size: 20px; 
+      }
+  
+      .sentences h3 {
+          font-size: 24px; 
+      }
+  
+      .menü-fiyat {
+          flex-direction: column; 
+          align-items: center; 
+          height: auto; 
+      }
+  
+      .terminal-pizza, .position-pizza, .use-burger {
+          width: 10%;
+           
+      }
+    }
       
      
       
